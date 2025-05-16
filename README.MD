@@ -40,6 +40,8 @@ Ejecuta el archivo `db_schema.sql` en tu terminal de MySQL o a través de MySQL 
 
 Una vez que hayas ejecutado el esquema, configura la conexión a la base de datos `my_app` en el archivo `.env`. Reemplaza los valores predeterminados con tu información de conexión específica. La variable `DATABASE_LINK` debe tener el siguiente formato, **asegurándote de que el nombre de la base de datos sea `my_app`**:
 
+DATABASE_LINK=mysql+mysqlconnector://&lt;usuario>:&lt;contraseña>@&lt;host>:&lt;puerto>/my_app
+
 ### Instalación
 
 1. Clonar repositorio:
