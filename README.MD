@@ -46,7 +46,7 @@ DATABASE_LINK=mysql+mysqlconnector://&lt;usuario>:&lt;contraseña>@&lt;host>:&lt
 
 1. Clonar repositorio:
 ```bash
-git clone [repo-url] && cd [repo-name]
+git clone https://github.com/JevDev2304/backendCIC.git
 ```
 
 2. Configurar entorno virtual:
