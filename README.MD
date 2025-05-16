@@ -109,6 +109,7 @@ pytest
    - Ampliar cobertura con pruebas unitarias
    - Implementar mocks para servicios externos
    - Pruebas de rendimiento
+   
 4. **Contenedorización con Docker**
    * Crear un Dockerfile optimizado para la aplicación
    * Configurar docker-compose para orquestar servicios (app, base de datos, etc.)
