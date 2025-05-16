@@ -93,12 +93,6 @@ Ejecutar pruebas de integración:
 pytest
 ```
 
-## 🐳 Docker (Opcional)
-
-Construir y ejecutar con Docker:
-```bash
-docker-compose up --build
-```
 
 ## 📌 Mejoras Futuras
 
