@@ -24,6 +24,22 @@ API REST para gestión de productos desarrollada con FastAPI que incluye:
 - MySQL 8.0+
 - Git
 
+## ⚙️ Configuración de la Base de Datos
+
+El esquema de la base de datos MySQL se encuentra detallado en el archivo `db_schema.sql`. Este archivo incluye la creación del esquema llamado `my_app` y la tabla `products` con sus respectivas columnas y configuraciones.
+
+## ⚙️ Configuración de la Base de Datos
+
+El esquema de la base de datos MySQL se encuentra detallado en el archivo `db_schema.sql`. Este archivo incluye la creación del esquema llamado `my_app` y la tabla `products` con sus respectivas columnas y configuraciones.
+
+**🛠️ Creación de la Base de Datos:**
+
+Ejecuta el archivo `db_schema.sql` en tu terminal de MySQL o a través de MySQL Workbench. Este script creará automáticamente el esquema `my_app` y la tabla `products` con la estructura definida.
+
+**🔗 Configuración de la Conexión:**
+
+Una vez que hayas ejecutado el esquema, configura la conexión a la base de datos `my_app` en el archivo `.env`. Reemplaza los valores predeterminados con tu información de conexión específica. La variable `DATABASE_LINK` debe tener el siguiente formato, **asegurándote de que el nombre de la base de datos sea `my_app`**:
+
 ### Instalación
 
 1. Clonar repositorio:
@@ -74,7 +90,7 @@ Acceder a la documentación:
 
 Ejecutar pruebas de integración:
 ```bash
-pytest tests/
+pytest
 ```
 
 ## 🐳 Docker (Opcional)
