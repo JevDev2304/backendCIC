@@ -10,8 +10,8 @@ API REST para gestión de productos desarrollada con FastAPI que incluye:
 
 ## 🔧 Tecnologías Principales
 
-- **Python 3.10+**
-- **FastAPI** - Framework web
+- **Python 3.13**
+- **FastAPI** - Framework  web
 - **SQLModel** - ORM y modelos
 - **MySQL** - Base de datos
 - **Pytest** - Pruebas automatizadas
@@ -110,3 +110,9 @@ pytest
    - Implementar mocks para servicios externos
    - Pruebas de rendimiento
 4. **Contenedorización con Docker**
+
+   * Crear un Dockerfile optimizado para la aplicación
+   * Configurar docker-compose para orquestar servicios (app, base de datos, etc.)
+   * Implementar volúmenes para persistencia de datos
+   * Definir variables de entorno para diferentes entornos (desarrollo, producción)
+   * Automatizar el despliegue y pruebas en contenedores
