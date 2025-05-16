@@ -15,7 +15,6 @@ API REST para gestión de productos desarrollada con FastAPI que incluye:
 - **SQLModel** - ORM y modelos
 - **MySQL** - Base de datos
 - **Pytest** - Pruebas automatizadas
-- **Docker** - Contenerización (opcional)
 
 ## ⚙️ Configuración
 
@@ -110,3 +109,4 @@ pytest
    - Ampliar cobertura con pruebas unitarias
    - Implementar mocks para servicios externos
    - Pruebas de rendimiento
+4. **Contenedorización con Docker**
