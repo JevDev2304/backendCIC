@@ -42,6 +42,7 @@ Una vez que hayas ejecutado el esquema, configura la conexión a la base de dato
 DATABASE_LINK=mysql+mysqlconnector://&lt;usuario>:&lt;contraseña>@&lt;host>:&lt;puerto>/my_app
 
 Además tambien necesitas esta variable de ambiente para la URL de la api de productos externa:
+
 EXTERNAL_API_LINK=https://fakestoreapi.com
 
 
